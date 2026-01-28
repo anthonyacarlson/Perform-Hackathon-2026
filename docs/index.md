@@ -13,6 +13,8 @@ Learn about the DevContainer environment and deployment architecture. Understand
 
 ## 🎯 What is This Hackathon?
 
+[Hackathon Kickoff: What You’ll Build & What to Expect](https://youtu.be/CPC8uhKKFCU)
+
 The **Vegas Casino Observability Hackathon** is a hands-on learning experience where you'll:
 
 - **Learn GitHub Copilot**: Master AI-assisted development with GitHub Copilot
