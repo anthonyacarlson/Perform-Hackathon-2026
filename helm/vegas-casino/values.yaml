@@ -3,7 +3,7 @@
 
 # Global configuration
 global:
-  imageRegistry:  ghcr.io/GITHUB_USER/vegasapp
+  imageRegistry:  ghcr.io/anthonyacarlson/vegasapp
   imageTag: "latest"
   imagePullPolicy: IfNotPresent
   namespace: vegas-casino
@@ -66,8 +66,8 @@ frontend:
   enabled: true
   name: frontend
   image:
-    repository: ""  # If empty, uses global.imageRegistry + "-frontend"
-    tag: ""  # If empty, uses global.imageTag
+    repository: ghcr.io/anthonyacarlson/vegasapp-frontend
+    tag: "latest"
     pullPolicy: IfNotPresent
   service:
     type: ClusterIP
